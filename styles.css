@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 1rem;
+    padding: 5px;
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(192, 12, 48);
+    padding: 10px;
+}
+#nav-bar h1 {
+    font-size: 2rem;
+}
+#new-book{
+    font-size: 1.5rem;
+    background-color: #006400;;
+    color: #fff;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+#main-container {
+ display: flex;
+
+}
+.library-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #b6adad;
+    justify-self: center;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+
+}
+.read {
+    width: 35%;
+    font-size: 1rem;
+    background-color: #006400;
+    outline: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
+.not-read {
+    background-color: rgb(206, 31, 31);;
+}
+.delete {
+    width: 35%;
+    font-size: 1rem;
+    background-color: rgb(206, 31, 31);
+    outline: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
